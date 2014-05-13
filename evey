@@ -1,0 +1,7 @@
+#!/bin/sh
+export HUBOT_AXE_DIRECTORY=/axes
+export HUBOT_IRC_PASSWORD=`cat pw`
+export HUBOT_IRC_NICK="evey"
+export HUBOT_IRC_SERVER="irc.freenode.org"
+export HUBOT_IRC_ROOMS="#tomahawk,#eveytest,#kde-multimedia,#musichackday,#tomahawk.mobile"
+./bin/hubot -a irc -n evey
