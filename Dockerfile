@@ -15,6 +15,7 @@ RUN cd hubot-tomahk && npm install
 RUN ln -s /hubot-tomahk/tomahk.coffee /evey/scripts/tomahk.coffee
 
 RUN git clone https://github.com/lorenzhs/hubot-tell.git
+RUN cd hubot-tell && npm install
 RUN ln -s /hubot-tell/src/tell.coffee /evey/scripts/tell.coffee
 
 ADD hubot-scripts.json evey/hubot-scripts.json
