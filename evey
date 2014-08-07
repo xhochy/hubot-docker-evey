@@ -4,4 +4,5 @@ export HUBOT_IRC_PASSWORD=`cat pw`
 export HUBOT_IRC_NICK="evey"
 export HUBOT_IRC_SERVER="irc.freenode.org"
 export HUBOT_IRC_ROOMS="#tomahawk,#eveytest,#kde-multimedia,#musichackday,#tomahawk.mobile"
+export HUBOT_TELL_RELATIVE_TIME=true
 ./bin/hubot -a irc -n evey
