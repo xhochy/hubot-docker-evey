@@ -1,4 +1,4 @@
-FROM stackbrew/ubuntu:13.10
+FROM stackbrew/ubuntu:14.04
 
 RUN apt-get -y update
 RUN apt-get install -y apt-utils
