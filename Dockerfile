@@ -12,7 +12,7 @@ RUN cd evey && npm install tomahk
 
 RUN git clone https://github.com/xhochy/hubot-tomahk.git
 RUN cd hubot-tomahk && npm install
-RUN ln -s /hubot-tomahk/tomahk.coffee /evey/node_modules/hubot-scripts/src/scripts/tomahk.coffee
+RUN ln -s /hubot-tomahk/tomahk.coffee /evey/scripts/tomahk.coffee
 
 RUN git clone https://github.com/lorenzhs/hubot-tell.git
 RUN ln -s /hubot-tell/src/tell.coffee /evey/scripts/tell.coffee
