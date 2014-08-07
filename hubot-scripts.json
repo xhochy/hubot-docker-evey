@@ -1,7 +1,5 @@
 [
     "ping.coffee",
-    "tomahk.coffee",
-    "youtube-info.coffee",
-    "tell.coffee"
+    "youtube-info.coffee"
 ]
 
